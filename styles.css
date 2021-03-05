@@ -1,0 +1,65 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(185, 75%, 39%);
+    font-family: 'Kumbh Sans', sans-serif;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .top-pattern {
+    position: absolute;
+    transform: translate(-450px, -450px);
+    transition: all 1s ease;
+  }
+
+.bottom-pattern {
+  position: absolute;
+  transform: translate(450px, 450px);
+  transition: all 1s ease;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    background-color: #fff;
+    z-index: 1;
+  }
+
+.card-body {
+    text-align: center;
+  }
+
+  .header{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+  .profile-picture {
+    border: 4px solid #fff;
+    border-radius: 50%;
+    margin-top: -50px;
+  }
+
+  .age {
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+  }
+  .card-footer {
+    display: flex;
+    justify-content: space-around;
+    border-top: 2px solid hsl(227, 10%, 46%);;
+    text-align: center;
+  }
+
+
+  .likes p {
+    color:  hsl(227, 10%, 46%);
+  }
